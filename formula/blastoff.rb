@@ -2,13 +2,13 @@ require 'formula'
 
 class Blastoff < Formula
   homepage 'https://github.com/IntrepidPursuits/homebrew-blastoff'
-  url 'http://intrepidpursuits.github.io/homebrew-blastoff/Blastoff-1.6.0.rc.tar.gz'
-  sha1 '13398500db81377b8d98d2b1dcabedc06eb24f5a'
+  url 'http://intrepidpursuits.github.io/homebrew-blastoff/Blastoff-1.6.0.rc1.tar.gz'
+  sha1 '751be839d55668c819ee79d1ce2e264ab1ca7d20'
 
   depends_on 'xcproj' => :recommended
 
   def install
-    prefix.install 'defaults', 'templates', 'vendor'
+    prefix.install 'vendor'
     prefix.install 'lib' => 'rubylib'
 
     man1.install ['man/blastoff.1']
