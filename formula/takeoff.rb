@@ -2,8 +2,8 @@ require 'formula'
 
 class Takeoff < Formula
   homepage 'https://github.com/IntrepidPursuits/homebrew-takeoff'
-  url 'http://intrepidpursuits.github.io/homebrew-takeoff/Takeoff-1.0.beta.tar.gz'
-  sha1 'c12e76737122c53a732ed8587d8c9936ec21ed71'
+  url 'http://intrepidpursuits.github.io/homebrew-takeoff/Takeoff-1.0.RC1.tar.gz'
+  sha1 'faf4d208260482a7a3d425228b90b3a42a3f5cb0'
 
   def install
     prefix.install 'vendor'
