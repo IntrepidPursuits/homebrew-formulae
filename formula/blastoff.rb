@@ -2,8 +2,8 @@ require 'formula'
 
 class Blastoff < Formula
   homepage 'https://github.com/IntrepidPursuits/homebrew-blastoff'
-  url 'http://intrepidpursuits.github.io/homebrew-blastoff/Blastoff-2.0.Release.Intrepid.tar.gz'
-  sha1 '2917880bce1f462f92973c216263a3047ad1b942'
+  url 'http://intrepidpursuits.github.io/homebrew-blastoff/Blastoff-2.0.RC1.Intrepid.tar.gz'
+  sha1 '9612689b351dd3539d1ce4458c135cc7b7d2b91d'
 
   depends_on 'xcproj' => :recommended
 
